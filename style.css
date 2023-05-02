@@ -61,7 +61,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: max(15vw);
   color: #fff;
 }
 
@@ -215,7 +215,7 @@ footer p {
 
   form {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
   }
 
   form div {
@@ -227,6 +227,14 @@ footer p {
   form div:last-child {
     width: 15%;
     margin: 0 0 0 5%;
+  }
+
+  form div .input-field {
+    width: 100%;
+  }
+
+  form button {
+    font-size: max(3vw);
   }
 
   /* -------  About ------- */
